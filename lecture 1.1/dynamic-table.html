@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dynamic table</title>
+</head>
+<body>
+    <table width="500" border="1" cellpadding="15">
+        <tr>
+            <td>a</td>
+            <td id="a"></td>
+        </tr>
+        <tr>
+            <td>b</td>
+            <td id="b"></td>
+        </tr>
+        <tr>
+            <td>c</td>
+            <td id="c"></td>
+        </tr>
+        <tr>
+            <td>d</td>
+            <td id="d"></td>
+        </tr>
+        <tr>
+            <td>e</td>
+            <td id="e"></td>
+        </tr>
+    </table>
+    <script>
+        let a=parseInt(prompt("enter number of a"));
+        let b=parseInt(prompt("enter number of b"));
+        let c=parseInt(prompt("enter number of c"));
+        let d=parseInt(prompt("enter number of d"));
+        let e=parseInt(prompt("enter number of e"));
+
+
+        document.getElementById("a").innerHTML=a;
+        document.getElementById("b").innerHTML=b;
+        document.getElementById("c").innerHTML=c;
+        document.getElementById("d").innerHTML=d;
+        document.getElementById("e").innerHTML=e;
+
+
+
+    </script>
+    
+</body>
+</html>

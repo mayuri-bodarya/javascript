@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swappping</title>
+</head>
+<body>
+    <p id="sum"></p>
+    <p id="mul"></p>
+    <p id="sub"></p>
+    <p id="div"></p>
+
+    <h2>swapping</h2>
+    <p id="a"></p>
+    <p id="b"></p>
+   
+    <script>
+        let a = parseInt(prompt("enter of a :"));
+        let b = parseInt(prompt("enter of b :"));
+      
+        document.getElementById("sum").innerHTML = "a + b ="+(a + b);
+        document.getElementById("mul").innerHTML = "a * b ="+(a * b);
+        document.getElementById("sub").innerHTML = "a - b ="+(a - b);
+        document.getElementById("div").innerHTML = "a / b ="+(a / b);
+
+
+        a=a*b;
+        b=a/b;
+        a=a/b;
+
+        document.getElementById("a").innerHTML = "a ="+(a);
+        document.getElementById("b").innerHTML = "b ="+(b);
+
+
+
+    </script>
+</body>
+</html>

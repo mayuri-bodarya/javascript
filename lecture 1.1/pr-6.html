@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>area of triangel;</title>
+</head>
+<body>
+    <table width="500" border="1" cellpadding="10">
+        <tr>
+            <td>area of triangle :</td>
+            <td id="area"></td>
+        </tr>
+    </table>
+
+    <script>
+          let a=parseFloat(prompt("enter the a : "));
+          let b=parseFloat(prompt("enter the b : "));
+
+          triangle=0.5 * a *b;
+
+          document.getElementById("area").innerHTML = triangle;
+    </script>
+</body>
+</html>

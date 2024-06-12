@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>circle area</title>
+</head>
+<body>
+    <table width="500" border="1" cellpadding="10">
+        <tr>
+            <td>radius :</td>
+            <td id="radius"></td>
+        </tr>
+        <tr>
+            <td>circle area :</td>
+            <td id="circle"></td>
+        </tr>
+
+    </table>
+
+    <script>
+        let a=parseFloat(prompt("enter the radius : "));
+        radius=3.14 * a * a;
+
+        
+        document.getElementById("radius").innerHTML = a;
+        document.getElementById("circle").innerHTML = radius;
+
+    </script>
+</body>
+</html>
